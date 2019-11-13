@@ -5,6 +5,14 @@
 
 h1 {font-size:5em; color:rgba(255,0,0,1)}
 
+h2 {font-size: 3em; font-weight: bold;}
+
+h3 {font-size: 1.5em; font-weight: bold; font-variant: small-caps;}
+
+p.intro {font-weight:bold;}
+
+p.text {font-weight: normal;}
+
 a:link {color: rgb(102, 102, 102);}
 a:visited {color: rgb(153, 153, 153);}
 a:hover {color: rgb(255, 51, 153);}
@@ -45,6 +53,10 @@ input[type=submit]: {
   font-size: 60px;
   padding: 30px 70px;
 }
+
+.icon {display:inline; padding:0; height:1em; width:1em; }
+
+
 /*
 .image {
   opacity: 0.3;
