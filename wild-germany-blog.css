@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 .container {
   position: relative;
   width: 50%;
@@ -5,13 +7,13 @@
 
 
 body {
-margin-top: 50px; margin-left: 20px; font-size:1.5em; font-family:Verdana, sans-serif; color:white; background-color:black;}
+margin: 50px 20px 20px 20px; font-size:1.5em; font-family:Lato,Verdana, sans-serif; color:white; background-color:black;}
 
-h1 {font-size:5em; color:rgba(255,0,0,1)}
+h1 {font-size: 3em; color:rgb(100, 255, 100); margin:10px 0 20px 0; text-align:left;font-variant: small-caps;}
 
-h2 {font-size: 3em; font-weight: bold;}
+h2 {font-size: 2em; font-weight: bold; margin-bottom:10px;font-variant: small-caps;}
 
-h3 {font-size: 1.5em; font-weight: bold; font-variant: small-caps;}
+h3 {font-size: 1.5em; font-weight: bold; font-variant: small-caps; margin:10px 0 px 0;}
 
 p.intro {font-weight:bold;}
 
@@ -20,6 +22,8 @@ p.text {font-weight: normal;}
 a:link {color: rgb(102, 102, 102);}
 a:visited {color: rgb(153, 153, 153);}
 a:hover {color: rgb(255, 51, 153);}
+
+hr {color:white; width:50px;}
 
 .menu { 
 position: fixed; 
@@ -88,19 +92,27 @@ box-sizing: border-box;
 
 .icon {display:inline; padding:0; height:1em; width:1em; }
 
-.artikel-bild {width:50%; float:left;}
+.artikel-bild {width:50%; float:left; padding:0 20px 20px 0;}
 
-.artikel-bild-inline {width:100%}
+.artikel-bild-inline {display:block; width:70%; text-align:center; padding:20px 10px 20px 10px;}
 
 
-.box {
+.box {font-variant: small-caps;
      float: left;
      width: 30%;
      margin-right: 3.33333%;
      padding: 20px;
      /*background: #eee;*/
-     box-sizing: border-box;
+     box-sizing: border-box;font-variant: small-caps;
 }
+
+
+
+footer li {list-style-type:none;}
+footer ul {margin-top:50px;}
+.signature {font-size: 0.7em; font-weight:light; font-variant: small-caps; opacity:0.7;transition: opacity .35s ease-in-out;}
+.signature:hover {opacity: 0;}
+
 
 
 
