@@ -5,7 +5,7 @@
 
 
 body {
-margin-top: 50px;}
+margin-top: 50px; margin-left: 20px; font-size:1.5em; font-family:Verdana, sans-serif; color:white; background-color:black;}
 
 h1 {font-size:5em; color:rgba(255,0,0,1)}
 
@@ -50,15 +50,6 @@ box-sizing: border-box;
 }
 
 
-/*.startbild {
-margin:50px;
-}*/
-
-input[type=submit]: {
-  background-color: #ADE;
-}
-
-
 .text1 {
   position: absolute;
   top: 300px;
@@ -73,7 +64,19 @@ input[type=submit]: {
 .text2 {
   position: absolute;
   top: 60px;
-  left: 110px;
+  left: 10px;
+  right: 20px;
+  border-radius: 30px;
+  opacity: 0.7;
+  color: white;
+  font-size: 60px;
+  padding: 30px 70px;
+}
+
+.text3 {
+  position: absolute;
+  top: 2800px;
+  left: 10px;
   right: 20px;
   border-radius: 30px;
   opacity: 0.7;
@@ -83,74 +86,21 @@ input[type=submit]: {
 }
 
 
-
 .icon {display:inline; padding:0; height:1em; width:1em; }
 
+.artikel-bild {width:50%; float:left;}
 
-/*
-.image {
-  opacity: 0.3;
-  display: block;
-  width: 30%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
+.artikel-bild-inline {width:100%}
 
-.container:hover .image {
-  opacity: 1;
-  
+
+.box {
+     float: left;
+     width: 30%;
+     margin-right: 3.33333%;
+     padding: 20px;
+     /*background: #eee;*/
+     box-sizing: border-box;
 }
 
-.container .text2 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  background-color: lightgrey;
-  border-radius: 30px;
-  opacity: 0.7;
-  color: white;
-  font-size: 100px;
-  padding: 35px 80px;
-}
 
-div span {
-   color: orange; 
-}
-
-.container .text {
-  position: absolute;
-  top: 550px;
-  left: 100px;
-  border-radius: 30px;
-  opacity: 1;
-  color: white;
-  font-size: 160px;
-  padding: 35px 80px;
-}
-
-.container:hover .text {
-display:none;
-}
-
-.container:hover .text2 {
-opacity: 0;
-}
-
-.container .text3 {
-  position: absolute;
-  top: 800px;
-  left: 300px;
-  border-radius: 30px;
-  opacity: 0;
-  color: white;
-  font-size: 60px;
-  padding: 35px 80px;
-}
- 
-.container:hover span.text3 {
-  opacity: 1;
-}
-*/
 
