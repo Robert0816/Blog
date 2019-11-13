@@ -75,13 +75,13 @@ box-sizing: border-box;
 
 .text3 {
   position: absolute;
-  top: 2800px;
+  top: 2100px;
   left: 10px;
   right: 20px;
   border-radius: 30px;
   opacity: 0.7;
   color: white;
-  font-size: 60px;
+  font-size: 45px;
   padding: 30px 70px;
 }
 
