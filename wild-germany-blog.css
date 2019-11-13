@@ -3,6 +3,7 @@
   width: 50%;
 }
 
+
 body {
 margin-top: 50px;}
 
@@ -20,20 +21,7 @@ a:link {color: rgb(102, 102, 102);}
 a:visited {color: rgb(153, 153, 153);}
 a:hover {color: rgb(255, 51, 153);}
 
-
-
-.menu-item  {
-font-size: 300%;
-list-style-type: none;
-display: inline;
-font-family: 'Lato', sans-serif;
-color: black;
-text-transform: uppercase;
-margin-right: 20px;
-padding:2px;
-box-sizing: border-box;}
-
-ul.menu { 
+.menu { 
 position: fixed; 
 top: 0;
 left: 0;
@@ -42,7 +30,26 @@ height: 50px;
 background-color: rgb(217, 217, 217);
 padding: 0px;
 box-sizing: border-box;
+align-items: flex-start
 }
+
+.menu-item {
+font-size: 3em;
+list-style-type: none;
+display: inline;
+font-family: 'Lato', sans-serif;
+color: black;
+text-transform: uppercase;
+margin-right: 20px;
+padding:2px;
+box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+.menu-item {font-size: 1em;}
+}
+
+
 /*.startbild {
 margin:50px;
 }*/
