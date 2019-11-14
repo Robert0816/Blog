@@ -19,9 +19,9 @@ h3 {font-size: 1.5em; font-weight: bold; font-variant: small-caps; margin:10px 0
 .intro p {font-weight:bold;}
 
 
-a:link {color: rgb(102, 102, 102);}
+a:link {color:#F5BCA9;}
 a:visited {color:#F5BCA9;}
-a:hover {color:#F5BCA9; text-decoration:none;}
+a:hover {color: rgb(102, 102, 102); text-decoration:none;}
 
 .linie {color:white !important; border:3px; width:50%; height:3px;}
 
