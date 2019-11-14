@@ -10,7 +10,7 @@ body {
 background-image:url("bilder/black-textile-952670.jpg");
 margin: 0px 20px 20px 20px; font-size:1em; font-family:Lato,Verdana, sans-serif; color:white; background-color:#333333; padding-top:3%;}
 
-h1 {font-size: 3em; color:rgb(100, 255, 100); margin:10px 0 20px 0; text-align:left;font-variant: small-caps;text-shadow: 2px 2px 5px red;}
+h1 {font-size: 4em; color:#F5BCA9; margin:10px 0 20px 0; text-align:left;font-variant: small-caps;text-shadow: 2px 2px 5px grey;}
 
 h2 {font-size: 2em; font-weight: bold; margin-bottom:10px;font-variant: small-caps;text-shadow: 2px 2px 5px grey;}
 
@@ -20,8 +20,8 @@ h3 {font-size: 1.5em; font-weight: bold; font-variant: small-caps; margin:10px 0
 
 
 a:link {color: rgb(102, 102, 102);}
-a:visited {color: rgb(153, 153, 153);}
-a:hover {color: rgb(255, 51, 153); text-decoration:none;}
+a:visited {color:#F5BCA9;}
+a:hover {color:#F5BCA9; text-decoration:none;}
 
 .linie {color:white !important; border:3px; width:50%; height:3px;}
 
@@ -38,7 +38,7 @@ align-items: flex-start;
 }
 
 .menu-item {
-font-size: 3em;
+font-size: 1.5em;
 top: 0;
 left: 0;
 list-style-type: none;
