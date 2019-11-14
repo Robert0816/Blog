@@ -5,9 +5,8 @@
   width: 50%;
 }
 
-
 body {
-margin: 50px 20px 20px 20px; font-size:1.5em; font-family:Lato,Verdana, sans-serif; color:white; background-color:black;}
+margin: 0px 20px 20px 20px; font-size:1em; font-family:Lato,Verdana, sans-serif; color:white; background-color:black;}
 
 h1 {font-size: 3em; color:rgb(100, 255, 100); margin:10px 0 20px 0; text-align:left;font-variant: small-caps;}
 
@@ -53,53 +52,16 @@ box-sizing: border-box;
 .menu-item {font-size: 1em;}
 }
 
-
-.text1 {
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  right: 50px;
-  border-radius: 30px;
-  opacity: 0.7;
-  color: white;
-  font-size: 90px;
-  padding: 35px 80px;
-}
-.text2 {
-  position: absolute;
-  top: 60px;
-  left: 10px;
-  right: 20px;
-  border-radius: 30px;
-  opacity: 0.7;
-  color: white;
-  font-size: 60px;
-  padding: 30px 70px;
-}
-
-.text3 {
-  position: absolute;
-<<<<<<< HEAD
-  top: 2800px;
-  left: 10px;
-=======
-  top: 1700px;
-  left: -10px;
->>>>>>> 4e1497e63cb6bda8a7463b32c08d731013542c00
-  right: 20px;
-  border-radius: 30px;
-  opacity: 0.7;
-  color: white;
-  font-size: 60px;
-  padding: 30px 70px;
-}
-
-
 .icon {display:inline; padding:0; height:1em; width:1em; }
 
 .artikel-bild {width:50%; float:left; padding:0 20px 20px 0;}
 
 .artikel-bild-inline {display:block; width:70%; text-align:center; padding:20px 10px 20px 10px;}
+
+.cardColor{
+	color:black;
+
+}
 
 
 .box {font-variant: small-caps;
@@ -118,11 +80,5 @@ footer ul {margin-top:50px;}
 
 
 
-footer li {list-style-type:none;}
-footer ul {margin-top:50px;}
-.signature {font-size: 0.7em; font-weight:light; font-variant: small-caps; opacity:0.7;transition: opacity .35s ease-in-out;}
-.signature:hover {opacity: 0;}
-
-
-
-
+.container5{
+}
