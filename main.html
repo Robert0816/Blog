@@ -10,41 +10,33 @@
 
 
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light menu">
-<a class="nav-item menu-item" href="#">Deutschlandblog</a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
+<a class="nav-item text-light text-decoration-none menu-item" href="#">Deutschlandblog</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item menu-item">
-        <a class="nav-link" href="main.html">Main <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link text-light  menu-item" href="main.html">Main </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light  menu-item" href="main.html#textbereich">Content</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-light  menu-item" href="main.html#contact">Contact</a>
       </li>
       <li class="nav-item menu-item">
-        <a class="nav-link" href="main.html#textbereich">Content</a>
-      </li>
-      <li class="nav-item menu-item">
-        <a class="nav-link" href="main.html#contact">Contact</a>
-      </li>
-      <li class="nav-item menu-item">
-        <a class="nav-link" href="main.html#about_us">About Us</a>
+        <a class="nav-link text-light" href="about-us.html">About Us</a>
       </li>
     </ul>
   </div>
 </nav>
-<!--	<nav>
-		<ul class="menu">
-			<li class="menu-item"><a href="main.html">Main</a></li>
-			<li class="menu-item"><a href="main.html#textbereich">Content</a></li>
-			<li class="menu-item"><a href="main.html#contact">Contact</a></li>
-			<li class="menu-item"><a href="main.html#about us">About Us</a></li>
-		</ul>
-	</nav> -->
+			
 
-				
-<header id="startbild">
 <section id="Carousel">
 <div class="container">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -103,8 +95,7 @@
         </div>
     </div>
 	
-
-	</header>			
+			
 
 
 	<section id="newsticker">
@@ -242,32 +233,33 @@
 	<hr>
 
 	<section id="contact">
-		<h2><a name="contact">Contact</a></h2>	
+		<h2 id="contact">Kontakt</h2>	
 <form>
   		<div class="form-row">
     			<div "form-group col-md-6">
 				<label for="vorname">Vorname</label>
-      				<input type="text" class="form-control" id="vorname" placeholder="Vorname">
+      				<input type="text" class="form-control" id="vorname" placeholder="Vorname" size="60">
     			</div>
-    			<div class="col">
+    			<div form-group col-md-6">
 				<label for="Name">Name</label>
-      				<input type="text" class="form-control" id="name" placeholder="Name">
+      				<input type="text" class="form-control" id="name" placeholder="Name" size="60">
     			</div>
   		</div>
 		<div class="form-row">
     			<div "form-group col-md-12">
 				<label for="email">E-Mail</label>
-      				<input type="email" class="form-control" id="email" placeholder="lily.musterfrau@meine-domain.de">
+      				<input type="email" class="form-control" id="email" placeholder="lily.musterfrau@meine-domain.de" size="120">
     			</div>
   		</div>
 		<div class="form-row">
     			<div "form-group col-md-12">
 				<label for="nachricht">Deine Nachricht</label>
-      				<textarea rows="10" cols="30" class="form-control" id="nachricht" />
+      				<textarea rows="10" cols="120" class="form-control" id="nachricht" />
 					 Wir freuen uns über dein Lob, deine Kritik und vor allem über Tipps und Tricks rund ums Reisen in Deutschland :-)
 				</textarea>
     			</div>
   		</div>
+<br />
 		<div class="form-row">
     			<div "form-group col-md-12">
 				<button type="submit" class="btn btn-primary">Senden</button>
@@ -275,7 +267,7 @@
 		</div>
 	</form>
 		
-		<p>Lorem ipsum 4</p>
+
 	</section>
 
 
