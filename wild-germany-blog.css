@@ -19,7 +19,7 @@ h3 {font-size: 1.5em; font-weight: bold; font-variant: small-caps; margin:10px 0
 
 a:link {color: rgb(102, 102, 102);}
 a:visited {color: rgb(153, 153, 153);}
-a:hover {color: rgb(255, 51, 153);}
+a:hover {color: rgb(255, 51, 153); text-decoration:none;}
 
 .linie {color:white !important; border:3px; width:50%; height:3px;}
 
@@ -60,6 +60,9 @@ margin-right: 0px;
    color:black;
 }
 
+.margin-add {margin-top:10px;}
+
+#contact {max-width:600px;}
 
 .box {font-variant: small-caps;
      float: left;
